@@ -1,0 +1,100 @@
+schema_version: 3
+campaign:
+  name: "test7"
+  title: "This is a longer Campaign name - Part XXIV and a second symphony"
+  description: ""
+  instigator: "38179254"
+  repo_id: 1349676105
+  language: "en"
+  license: "CC-BY-4.0"
+automation:
+  central_repository: "lets-encode/instigation"
+  ref: "main"
+  path: "scripts/coordinator.ts"
+source:
+  kind: "facsimile"
+  images:
+    - "sources/img/01.jpg"
+    - "sources/img/02.jpg"
+    - "sources/img/03.jpg"
+    - "sources/img/04.jpg"
+    - "sources/img/05.jpg"
+    - "sources/img/06.jpg"
+    - "sources/img/07.jpg"
+    - "sources/img/08.jpg"
+    - "sources/img/09.jpg"
+    - "sources/img/10.jpg"
+    - "sources/img/11.jpg"
+    - "sources/img/12.jpg"
+    - "sources/img/13.jpg"
+    - "sources/img/14.jpg"
+  header:
+    title: "This is the title of the source (Winterreise)"
+    composer: "Schubert"
+    publisher: ""
+    date: ""
+  rights_acknowledged: "1"
+pieces:
+  - id: "piece-01"
+    kind: "facsimile"
+    path: "sources/piece-01/score.mei"
+    zones:
+      - { surface: 1, ulx: 0, uly: 0, lrx: 1296, lry: 1728 }
+      - { surface: 2, ulx: 17, uly: 15, lrx: 1296, lry: 1728 }
+      - { surface: 3, ulx: 20, uly: 10, lrx: 1274, lry: 1716 }
+      - { surface: 4, ulx: 25, uly: 20, lrx: 1259, lry: 1728 }
+    header:
+      title: "This is the title of the first piece"
+      composer: "Schubert"
+  - id: "piece-02"
+    kind: "facsimile"
+    path: "sources/piece-02/score.mei"
+    zones:
+      - { surface: 5, ulx: 19, uly: 15, lrx: 1281, lry: 1704 }
+      - { surface: 6, ulx: 27, uly: 19, lrx: 1296, lry: 1720 }
+    header:
+      title: "Second piece"
+      composer: "Schubert"
+  - id: "piece-03"
+    kind: "facsimile"
+    path: "sources/piece-03/score.mei"
+    zones:
+      - { surface: 7, ulx: 22, uly: 22, lrx: 1294, lry: 1711 }
+      - { surface: 8, ulx: 22, uly: 17, lrx: 1284, lry: 1728 }
+      - { surface: 9, ulx: 10, uly: 7, lrx: 1296, lry: 1718 }
+    header:
+      title: "Third piece"
+      composer: ""
+  - id: "piece-04"
+    kind: "facsimile"
+    path: "sources/piece-04/score.mei"
+    zones:
+      - { surface: 10, ulx: 17, uly: 20, lrx: 1276, lry: 1721 }
+    header:
+      title: "And this is the fourth piece"
+      composer: ""
+  - id: "piece-05"
+    kind: "facsimile"
+    path: "sources/piece-05/score.mei"
+    zones:
+      - { surface: 11, ulx: 20, uly: 20, lrx: 1282, lry: 1725 }
+      - { surface: 12, ulx: 25, uly: 15, lrx: 1281, lry: 1728 }
+    header:
+      title: "Fifth one"
+      composer: ""
+  - id: "piece-06"
+    kind: "facsimile"
+    path: "sources/piece-06/score.mei"
+    zones:
+      - { surface: 13, ulx: 0, uly: 0, lrx: 1296, lry: 1728 }
+      - { surface: 14, ulx: 0, uly: 0, lrx: 1296, lry: 1728 }
+    header:
+      title: "Last piece, finally"
+      composer: "Schubert"
+fragmentation:
+  strategy: "by-piece"
+validation:
+  required_validations: 1
+  pass_threshold: 1
+locking:
+  stale_after_minutes: 120
