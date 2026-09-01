@@ -12,7 +12,7 @@ T0003,S0001,pending,,,
 T0004,,encoding_required,,,
 T0004,S0001,pending,,,
 P0003,,validation_required,38179254,2026-09-01T12:01:07.524Z,
-P0003,S0001,validation_required,,,
+P0003,S0001,validation_required,,,pass
 P0004,,encoding_required,,,
 P0004,S0001,pending,,,
 T0005,,encoding_required,,,
