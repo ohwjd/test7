@@ -14,7 +14,7 @@ T0004,S0001,pending,,,
 P0003,,completed,38179254,2026-09-01T12:01:07.524Z,
 P0003,S0001,completed,,,pass|297915765|2026-09-01T12:04:54.903Z
 P0004,,validation_required,297915765,2026-09-01T12:09:20.789Z,
-P0004,S0001,validation_required,,,
+P0004,S0001,validation_required,,,pass
 T0005,,encoding_required,,,
 T0005,S0001,pending,,,
 T0006,,encoding_required,,,
